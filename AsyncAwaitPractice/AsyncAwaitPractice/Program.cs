@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace AsyncAwaitPractice
 {
@@ -6,7 +7,8 @@ namespace AsyncAwaitPractice
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var starter = new Starter();
+            starter?.Run();
         }
     }
 }
